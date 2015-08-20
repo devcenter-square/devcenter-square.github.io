@@ -1,0 +1,56 @@
+---
+layout: default 
+---
+<div class="wrapper pure-g">
+    <div class="pure-u-1 pure-u-md-1-3">
+        <div class="box box-1 bg-1">
+            <h1>Devcenter Square</h1>
+            <h4>is a curation of people from <a href="">devcenter.co</a> working on open source projects.</h4>
+            <ul class="links">
+                <li><a href="">View Members - 8</a></li>
+                <li><a href="">Join us on Slack</a></li>
+            </ul>
+        </div>
+    </div>
+    {% for post in site.posts %}
+    <div class="pure-u-1 pure-u-md-1-3">
+        <div class="box box-{{post.color_id}} bg-{{post.color_id}}">
+            <h5>Built with {{post.language}}</h5>
+            <h3>{{post.title}}</h3>
+            <h4>{{post.summary}}</h4>            
+            <ul class="links">
+              {% if post.completed %}
+              <li><a href="{{post.github}}">Github</a> <span>/</span> <a href="{{ post.url | prepend: site.baseurl }}">Docs</a></li>
+              {% else %}
+              <li><span>Soon, Soon.</span></li>
+              {% endif %}
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+<!--     <div class="pure-u-1 pure-u-md-1-3">
+        <div class="box box-3 bg-3">
+            <h5>Building with Javascript</h5>
+            <h3>States&Cities</h3>
+            <h4>We’re creating a simple dump for states and cities in Nigeria. Get data as JSON, XML or via an endpoint</h4>
+            <ul class="links">
+                <li><span>Soon, Soon.</span></li>
+            </ul>
+        </div>
+    </div> -->
+</div>
+<!-- <div class="home">
+    <h1 class="page-heading">Posts</h1>
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        </li>
+        {% endfor %}
+    </ul>
+    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+</div> -->
+

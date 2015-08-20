@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devcenter Square</title>
+    <description>Devcenter Square is a collective of developers from Devcenter working on interesting open source projects.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 20 Aug 2015 07:07:21 +0100</pubDate>
+    <lastBuildDate>Thu, 20 Aug 2015 07:07:21 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>NgBankParser</title>
+        <description>
+</description>
+        <pubDate>Thu, 20 Aug 2015 07:30:00 +0100</pubDate>
+        <link>http://yourdomain.com/2015/08/20/ng-bank-parser.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/08/20/ng-bank-parser.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>States&amp;Cities</title>
+        <description>
+</description>
+        <pubDate>Thu, 20 Aug 2015 07:25:00 +0100</pubDate>
+        <link>http://yourdomain.com/2015/08/20/states-and-cities.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/08/20/states-and-cities.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

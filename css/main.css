@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 *,
 *:before,
@@ -7,7 +8,7 @@
 html,
 body {
   height: 100%;
-  font-family: Helvetica, Helvetica Neue, Arial;
+  font-family: "Inconsolata", Helvetica, Helvetica Neue, Arial;
   -webkit-font-smoothing: antialiased;
 }
 html {
@@ -205,6 +206,15 @@ header .search input {
     width: 1026px;
     /* 1140px - 10% for margins */
     margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sidebar {
+    height: auto;
+  }
+  .page-content {
+    padding: 30px 40px;
+    height: auto;
   }
 }
 /* ==========================================================================

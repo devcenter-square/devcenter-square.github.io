@@ -4,6 +4,12 @@
 *:after {
   box-sizing: border-box;
 }
+html,
+body {
+  height: 100%;
+  font-family: Helvetica, Helvetica Neue, Arial;
+  -webkit-font-smoothing: antialiased;
+}
 html {
   color: #222;
   font-size: 1em;
@@ -51,14 +57,6 @@ textarea {
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
-html,
-button,
-input,
-select,
-textarea,
-.pure-g [class*="pure-u"] {
-  font-family: "Open Sans", Helvetica, Helvetica Neue, Arial;
-}
 .wrapper {
   width: 90%;
   margin: 0 5%;
@@ -80,6 +78,9 @@ textarea,
 }
 .bg-white {
   background: white;
+}
+.no-padder {
+  padding: 0;
 }
 header {
   padding: 30px 0;
@@ -178,6 +179,13 @@ header .search input {
 }
 .h-full-body {
   height: calc(100% - 90px);
+}
+.sidebar {
+  height: 100%;
+}
+.page-content {
+  padding: 30px 40px;
+  overflow: scroll;
 }
 /* ==========================================================================
    Media Queries

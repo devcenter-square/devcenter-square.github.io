@@ -15,9 +15,9 @@ color_id: 2
 
 Add this line to your application's Gemfile:
 
-```ruby
+{% highlight ruby %}
 gem 'ng-bank-parser'
-```
+{% endhighlight %}
 
 And then execute:
 
@@ -30,9 +30,9 @@ Or install it yourself as:
 ## Usage
 
 Using the gem is pretty straightforward and simple.
-```ruby
+{% highlight ruby %}
 result = NgBankParser::Router.parse(bank_key, file_path, password)
-```
+{% endhighlight %}
 
 `bank_name` is the name key of the bank that statement is from. There's a list of supported banks and formats below.
 
@@ -42,7 +42,7 @@ result = NgBankParser::Router.parse(bank_key, file_path, password)
 
 `result` is a hash that contains all the information you need from your statment.
 
-```ruby
+{% highlight ruby %}
 result = {
     status: 1,
     data: {
@@ -54,20 +54,20 @@ result = {
         transactions: an_array_of_transaction_hashes
     }
 }
-```
+{% endhighlight %}
 
 `:status` can either be 1 or 0. 1 for when the parsing is succesful and 0 for when it's not. A status of 0 is accompanied with an error message that aims to clarify why it could not parse the file.
 
-```ruby
+{% highlight ruby %}
 result = {
     status: 0,
     message: "RELEVANT ERROR MESSAGE"
 }
-```
+{% endhighlight %}
 
 Furthermore, `:transactions` in the `result` hash is an array of hashes. Below is an example of a transaction hash
 
-```ruby
+{% highlight ruby %}
 transaction = {
     date: transaction_date,
     amount: transaction_amount,
@@ -77,7 +77,7 @@ transaction = {
     ref: reference_id, # as provided by the statment
 }
     
-```
+{% endhighlight %}
 
 ## List of Supported Banks
 

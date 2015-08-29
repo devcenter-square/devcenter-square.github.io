@@ -11,6 +11,8 @@ color_id: 2
 
 # Ng::Bank::Parser
 
+This is a simple gem to parse Nigerian bank statements of all formats. If your bank and/or file format is not supported, consider reading the contribute wiki and submitting a pull request.
+
 ## Installation
 
 Add this line to your application's Gemfile:

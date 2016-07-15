@@ -7,8 +7,8 @@ layout: default
             <h1>Devcenter Square</h1>
             <h4>is a curation of people from <a href="">devcenter.co</a> working on open source projects.</h4>
             <ul class="links">
-                <li><a href="https://github.com/orgs/devcenter-square/people">View Members - 8</a></li>
-                <li><a href="mailto:akin@devcenter.co">Join us on Slack</a></li>
+                <li><a href="https://github.com/orgs/devcenter-square/people">View Members - 13</a></li>
+                <li><a href="https://devcenter-square-slack.herokuapp.com">Join us on Slack</a></li>
             </ul>
         </div>
     </div>
@@ -20,7 +20,7 @@ layout: default
             <h4>{{post.summary}}</h4>            
             <ul class="links">
               {% if post.completed %}
-              <li><a href="{{post.github}}">Github</a> <span>/</span> <a href="{{ post.url | prepend: site.baseurl }}">Docs</a></li>
+              <li><a href="{{post.github}}">GitHub</a> <span>/</span> <a href="{{ post.url | prepend: site.baseurl }}">Docs</a></li>
               {% else %}
               <li><span>Soon, Soon.</span></li>
               {% endif %}

@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "States&Cities"
+title:  "States & Cities"
 date:   2015-08-20 06:25:00
 language: "Javascript"
 summary: "We created a simple dump for states and cities in Nigeria. Get data as JSON, XML or via an endpoint"

@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Angular Export"
+title:  "angular-export"
 date:   2016-07-15 15:00:00
 language: "AngularJS"
 summary: "We created an angular directive for exporting and downloading JSON data into a CSV file"

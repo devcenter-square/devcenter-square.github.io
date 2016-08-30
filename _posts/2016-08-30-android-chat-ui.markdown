@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "android-chat-ui"
+title:  "Android Chat UI"
 date:   2016-08-30 13:20:00
 language: "Java"
 summary: "We created an android UI chat library to help ease the development process for an Android app with chat functionality"

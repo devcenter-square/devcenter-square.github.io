@@ -6,7 +6,7 @@ language: "Java"
 summary: "We created an android UI chat library to help ease the development process for an Android app with chat functionality"
 github: "https://github.com/devcenter-square/android-chat-ui"
 completed: true
-color_id: 2
+color_id: 1
 ---
 
 # Android Chat UI

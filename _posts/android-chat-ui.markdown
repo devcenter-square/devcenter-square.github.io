@@ -1,3 +1,14 @@
+---
+layout: project
+title:  "android-chat-ui"
+date:   2016-08-30 13:20:00
+language: "Java"
+summary: "We created an android UI chat library to help ease the development process for an Android app with chat functionality"
+github: "https://github.com/devcenter-square/android-chat-ui"
+completed: true
+color_id: 2
+---
+
 # Android Chat UI
 
 This is meant to ease the life of any developer looking to add chat functionality into his/her Android application and wouldn't like to worry so much about setting up the UI.

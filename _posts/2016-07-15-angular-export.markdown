@@ -6,7 +6,7 @@ language: "AngularJS"
 summary: "We created an angular directive for exporting and downloading JSON data into a CSV file"
 github: "https://github.com/devcenter-square/angular-export"
 completed: true
-color_id: 4
+color_id: 5
 ---
 
 # angular-export

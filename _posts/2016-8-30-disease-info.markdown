@@ -1,12 +1,12 @@
 ---
 layout: project
-title:  "DISEASE INFO"
+title:  "Disease Info"
 date:   2016-08-30 13:45:00
 language: "Ruby on Rails"
 summary: "We created a scrapper app to get information about diseases from Health Organizations -  WHO, CDC et al."
 github: "https://github.com/devcenter-square/disease-info"
 completed: true
-color_id: 2
+color_id: 3
 ---
 
 # DISEASE INFO

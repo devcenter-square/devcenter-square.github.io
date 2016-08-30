@@ -6,7 +6,7 @@ language: "Ruby on Rails"
 summary: "We created a scrapper app to get information about diseases from Health Organizations -  WHO, CDC et al."
 github: "https://github.com/devcenter-square/disease-info"
 completed: true
-color_id: 1
+color_id: 2
 ---
 
 # DISEASE INFO

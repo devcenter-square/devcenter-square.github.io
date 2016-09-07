@@ -14,7 +14,7 @@ color_id: 2
 
 User interface to display the scrapped data gotten by the Disease Info scrapper from Health Organizations sites like WHO, CDC et al. It is an Angular PWA on a Bootstrap framework.
 
-It is live here - https://disease-info.herokuapp.com/
+It is live [here](https://disease-info.herokuapp.com/)
 
 ## Getting Started
 

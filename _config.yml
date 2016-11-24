@@ -1,8 +1,8 @@
 # Site settings
 title: Devcenter Square
-email: opemipoaikomo@gmail.com
+email: square@devcenter.co 
 description: > # this means to ignore newlines until "baseurl:"
-  Devcenter Square is a collective of developers from Devcenter
+  Devcenter Square is a collective of developers and designers
   working on interesting open source projects.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site

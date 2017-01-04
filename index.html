@@ -1,13 +1,13 @@
 ---
-layout: default 
+layout: default
 ---
 <div class="wrapper pure-g">
-    <div class="col-md-4 col-xs-12 no-padder">
+    <div class="col-md-offset-4 col-md-4 col-xs-12 no-padder">
         <div class="box box-1 bg-2">
             <h1>Devcenter Square</h1>
-            <h4>is a curation of over 420 developers and designers working on open source projects.</h4>
-            <p>Want to join?</p>
-            <p><a href="https://github.com/devcenter-square/beginner-guide/wiki">Check here</a></p>
+            <h4>is a curation of over 520 developers and designers working on open source projects.</h4>
+            <p>Want to join? Check <a href="https://github.com/devcenter-square/beginner-guide/wiki">here</a> to learn how
+ to join us on Slack and contribute to projects</p>
             <p>Powered by <a href="http://devcenter.co" title="Devcenter">Devcenter</a></p>
         </div>
     </div>
@@ -16,7 +16,7 @@ layout: default
         <div class="box box-{{post.color_id}} bg-{{post.color_id}}">
             <h5>Built with {{post.language}}</h5>
             <h3>{{post.title}}</h3>
-            <h4>{{post.summary}}</h4>            
+            <h4>{{post.summary}}</h4>
             <ul class="links">
               {% if post.completed %}
               <li><a href="{{post.github}}">GitHub</a> <span>/</span> <a href="{{ post.url | prepend: site.baseurl }}">Docs</a></li>
@@ -52,4 +52,3 @@ layout: default
     </ul>
     <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
 </div> -->
-

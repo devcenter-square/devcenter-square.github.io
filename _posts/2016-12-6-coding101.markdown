@@ -1,0 +1,16 @@
+---
+layout: project
+title:  "coding101"
+date:   2016-12-6 06:30:00
+language: "JavaScript"
+summary: "We are creating a guide to help the non-technical, learn to code"
+github: "https://github.com/devcenter-square/coding101"
+completed: false
+color_id: 3
+---
+
+# coding101
+A non-technical guide to learning code.
+
+## Demo  
+Demo is running in [Firebase here.](https://coding101-e7ef0.firebaseapp.com/).

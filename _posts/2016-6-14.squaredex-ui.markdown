@@ -1,0 +1,25 @@
+---
+layout: project
+title:  "Squaredex UI"
+date:   2016-06-14 06:30:00
+language: "AngularJS"
+summary: "We are creating a user interface to manage the contributions of members of Square"
+github: "https://github.com/devcenter-square/Squaredex-UI"
+completed: true
+color_id: 2
+---
+
+# Squaredex-UI
+We are creating a user interface to manage the contributions of members of Square. Basically, a user interface for Squaredex.
+
+## TODO
+- A modal with form fields to give karma
+- Number of karma points
+- Reason for giving karma points  
+
+
+## WHAT HAS BEEN DONE
+- History view
+- Leaderboard
+- Sign in/Sign up view
+

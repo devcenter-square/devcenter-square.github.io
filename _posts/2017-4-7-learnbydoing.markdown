@@ -19,6 +19,7 @@ Open source projects have been a developer (and more recently designers) way of 
 To help reduce the skills gap, and increase the quality of developers locally, we decided to create a process around it. Newly minted developers (newbie devs) will work on projects using specially designed tasks. And with the aid of guides, they will learn new technologies, skills and techniques in software development by doing.
 
 Pick a project from the list below.
+
 ---
 
 ### Project List

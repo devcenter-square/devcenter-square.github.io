@@ -1,3 +1,14 @@
+---
+layout: project
+title:  "Learn by Doing"
+date:   2017-07-4 06:30:00
+language: "Markdown"
+summary: "Helping developers learn by contributing to real life projects."
+wiki: "https://github.com/devcenter-square/coding101/wiki/Coding-101-%7C-Learn-by-Doing"
+completed: true
+color_id: 2
+---
+
 # Learn by Doing
 _Helping developers learn by contributing to real life projects._
 
